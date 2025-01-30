@@ -1,0 +1,35 @@
+div#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+}
+figure {
+    padding: 6px;
+    background-color: #b6cab8;
+    border: 2px solid #000000;
+    border-radius: 1%;
+    margin: 2%;
+    box-shadow: none;
+}
+figcaption {
+    text-align:center
+}
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+body {
+    background-color: #7A9F7D;
+    font-family: "Karla";
+}
+a:visited {
+    color: #000000;
+}
+h1, h2 {
+    font-family: "Lexend";
+    color: #1D261D;
+}
+main {
+    flex-flow: wrap;
+    flex-direction: row;
+}
